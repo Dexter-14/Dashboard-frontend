@@ -5,7 +5,7 @@ const LocMetrics = () => {
   const [filterValue, setFilterValue] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3001/loc-metrics')
+    fetch('http://bgl-ads-6382:3001/loc-metrics')
       .then((response) => response.text())
       .then((data) => setLocData(data))
       .catch((error) => console.log(error));
