@@ -624,7 +624,7 @@ const TableComponent = () => {
               <th>Manager ID</th>
               <th>Employee ID</th>
               <th>
-                Field 3
+                RMV123
                 <button
                   className="btn btn-link"
                   onClick={() => handleSort('field3')}
@@ -633,7 +633,7 @@ const TableComponent = () => {
                 </button>
               </th>
               <th>
-                Field 4
+                CJUD
                 <button
                   className="btn btn-link"
                   onClick={() => handleSort('field4')}
@@ -642,7 +642,7 @@ const TableComponent = () => {
                 </button>
               </th>
               <th>
-                Field 5
+                FW
                 <button
                   className="btn btn-link"
                   onClick={() => handleSort('field5')}
@@ -651,7 +651,7 @@ const TableComponent = () => {
                 </button>
               </th>
               <th>
-                Field 6
+                REVIEW
                 <button
                   className="btn btn-link"
                   onClick={() => handleSort('field6')}
