@@ -113,7 +113,7 @@ const IndividualEmployeeIssues = () => {
   const [categoryFilter, setCategoryFilter] = useState('ALL');
 
   useEffect(() => {
-    fetch('http://localhost:3001/files')
+    fetch('http://bgl-ads-6382:3001/files')
       .then((response) => response.json())
       .then((data) => setFileData(data))
       .catch((error) => console.log(error));
