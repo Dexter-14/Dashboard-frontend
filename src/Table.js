@@ -521,7 +521,7 @@ const TableComponent = () => {
   }, []);
 
   const fetchFileData = () => {
-    fetch('http://bgl-ads-6382:3000/file')
+    fetch('http://bgl-ads-6382:3001/file')
       .then((response) => response.text())
       .then((data) => {
         parseFileData(data);
